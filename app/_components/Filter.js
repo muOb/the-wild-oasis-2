@@ -49,7 +49,7 @@ function Filter() {
   );
 }
 
-function Button({ filter, handelFilter, activeFilter, children }) {
+function Button({ filter, handleFilter, activeFilter, children }) {
   return (
     <button
       onClick={() => handleFilter(filter)}
